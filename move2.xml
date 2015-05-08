@@ -15,6 +15,16 @@
         <next>
           <block type="oled_drawtext" id="27">
             <field name="TEXT">Fun</field>
+            <next>
+              <block type="led_select" id="50" inline="true">
+                <field name="ACTION">ON</field>
+                <value name="LED">
+                  <block type="math_number" id="57">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </next>
           </block>
         </next>
       </block>
